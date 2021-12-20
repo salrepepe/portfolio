@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./css/index.css";
 import Header from "./shared/Header";
-import { Routes, Route, useLocation, Redirect } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./shared/Footer";
 import ChangeLanguage from "./shared/changeLanguage";
@@ -29,7 +29,6 @@ function App() {
       {window.matchMedia("(min-width: 768px)").matches && (
         <ChangeLanguage i18n={i18n} />
       )}
-      <Redirect />
       <Routes>
         <Route path="/" element={<Home t={t} />} />
         <Route path="/portfolio" element={<Portfolio t={t} />} />
