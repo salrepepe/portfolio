@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import "./css/index.css";
 import Header from "./shared/Header";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./shared/Footer";
 import ChangeLanguage from "./shared/changeLanguage";
