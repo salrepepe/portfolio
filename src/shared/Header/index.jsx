@@ -44,7 +44,9 @@ const Header = ({ t, i18n }) => {
               onClick={() => setOpen(false)}
               to="/"
               className="nav-item h5 link"
-              activeClassName="nav-item_active"
+              style={({ isActive }) => ({
+                color: isActive ? "var(--color-primary)" : "#fff",
+              })}
             >
               {t("about")}
             </NavLink>
@@ -53,7 +55,9 @@ const Header = ({ t, i18n }) => {
             onClick={() => setOpen(false)}
             to="/portfolio"
             className="nav-item h5 link"
-            activeClassName="nav-item_active"
+            style={({ isActive }) => ({
+              color: isActive ? "var(--color-primary)" : "#fff",
+            })}
           >
             {t("portfolio")}
           </NavLink>
@@ -61,7 +65,9 @@ const Header = ({ t, i18n }) => {
             onClick={() => setOpen(false)}
             to="/contacts"
             className="nav-item h5 link"
-            activeClassName="nav-item_active"
+            style={({ isActive }) => ({
+              color: isActive ? "var(--color-primary)" : "#fff",
+            })}
           >
             {t("contacts")}
           </NavLink>

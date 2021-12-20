@@ -10,9 +10,9 @@ const ChangeLanguage = ({ i18n }) => {
         className={i18n.language === "ru" ? "lang_active" : ""}
         onClick={() => {
           i18n.changeLanguage("ru");
+          document.documentElement.lang = "ru";
           localStorage.setItem("i18nextLng", "ru");
           window.location.pathname = `ru${location.pathname}`;
-          document.documentElement.lang = "ru";
         }}
       >
         RU

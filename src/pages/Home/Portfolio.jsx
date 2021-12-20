@@ -1,11 +1,14 @@
 import { t } from "i18next";
 import React, { useState } from "react";
+import { useNavigate } from "react-router";
 import domket from "../../assets/images/portfolio/domket.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
 import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 
 const Portfolio = () => {
   const [slide, setSlide] = useState(null);
+
+  const navigate = useNavigate();
 
   return (
     <section class="portfolio dark" id="portfolio">
@@ -26,7 +29,12 @@ const Portfolio = () => {
             </a>
           ))}
         </div>
-        <button className="btn btn-secondary">{t("viewAll")}</button>
+        <button
+          className="btn btn-secondary"
+          onClick={() => navigate("/portfolio")}
+        >
+          {t("viewAll")}
+        </button>
       </div>
     </section>
   );

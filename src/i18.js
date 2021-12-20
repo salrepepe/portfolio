@@ -87,5 +87,4 @@ i18n
     },
     resources,
   });
-
 export default i18n;
