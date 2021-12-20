@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./index.css";
-import itStudio from "../../assets/images/portfolio/itStudio.png";
-import runSmart from "../../assets/images/portfolio/runSmart.png";
-import HouseVOP from "../../assets/images/portfolio/houseVop.png";
-import crypto from "../../assets/images/portfolio/crypto.png";
-import domket from "../../assets/images/portfolio/domket.png";
-import netex from "../../assets/images/portfolio/netex.png";
-import oracleDigital from "../../assets/images/portfolio/oracle-digital.png";
+import itStudio from "../../assets/images/portfolio/itStudio.webp";
+import runSmart from "../../assets/images/portfolio/runSmart.webp";
+import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
+import crypto from "../../assets/images/portfolio/crypto.webp";
+import domket from "../../assets/images/portfolio/domket.webp";
+import netex from "../../assets/images/portfolio/netex.webp";
+import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 import { t } from "i18next";
 import Dialog from "./Dialog";
 

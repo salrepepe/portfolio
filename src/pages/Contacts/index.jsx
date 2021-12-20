@@ -2,7 +2,7 @@ import React from "react";
 import { t } from "i18next";
 import "./index.css";
 import { motion } from "framer-motion";
-import akio from "../../assets/images/akio.gif";
+import akio from "../../assets/images/akio.webp";
 
 const Contacts = () => {
   return (

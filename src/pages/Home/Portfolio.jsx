@@ -1,8 +1,8 @@
 import { t } from "i18next";
 import React, { useState } from "react";
-import domket from "../../assets/images/portfolio/domket.png";
-import netex from "../../assets/images/portfolio/netex.png";
-import oracleDigital from "../../assets/images/portfolio/oracle-digital.png";
+import domket from "../../assets/images/portfolio/domket.webp";
+import netex from "../../assets/images/portfolio/netex.webp";
+import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 
 const Portfolio = () => {
   const [slide, setSlide] = useState(null);

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import me from "../../assets/images/me.JPG";
+import me from "../../assets/images/me.webp";
 import uploadedFileLink from "../../assets/images/cv.png";
 
 const FirstScreen = ({ t }) => {

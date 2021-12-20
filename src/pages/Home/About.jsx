@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import akio from "../../assets/images/about/akio.gif";
+import akio from "../../assets/images/about/akio.webp";
 
 const About = ({ t }) => {
   const [tab, setTab] = useState("education");
