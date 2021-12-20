@@ -7,7 +7,7 @@ import "./i18";
 
 ReactDOM.render(
   <Suspense fallback={<Loading />}>
-    <BrowserRouter basename={localStorage.getItem("i18nextLng")}>
+    <BrowserRouter basename={`/${localStorage.getItem("i18nextLng")}`}>
       <App />
     </BrowserRouter>
   </Suspense>,
