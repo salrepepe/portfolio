@@ -7,6 +7,7 @@ import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
 import crypto from "../../assets/images/portfolio/crypto.webp";
 import domket from "../../assets/images/portfolio/domket.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
+import plantShop from "../../assets/images/portfolio/plant-shop.webp";
 import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 import { t } from "i18next";
 import Dialog from "./Dialog";
@@ -86,6 +87,16 @@ const slides = [
     date: "February 2021",
     technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
     link: "https://salrepepe.github.io/HouseVop/",
+  },
+  {
+    img: plantShop,
+    color: "#355342",
+    name: "Plant Shop",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "February 2021",
+    technologies: "HTML, CSS, Javascript",
+    link: "https://salrepepe.github.io/plant-shop/",
   },
   {
     img: "",
