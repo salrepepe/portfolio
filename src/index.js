@@ -11,6 +11,5 @@ ReactDOM.render(
       <App />
     </BrowserRouter>
   </Suspense>,
-
   document.getElementById("root")
 );
