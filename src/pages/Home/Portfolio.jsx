@@ -48,7 +48,7 @@ const slides = [
     name: "Netex",
     date: "November - December 2021",
     technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://netex.kg",
+    link: "https://test.netex.kg",
   },
 
   {

@@ -65,7 +65,7 @@ const slides = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
     date: "November - December 2021",
     technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://netex.kg",
+    link: "https://test.netex.kg",
   },
   {
     img: domket,
