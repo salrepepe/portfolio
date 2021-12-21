@@ -58,75 +58,14 @@ export default Portfolio;
 
 const slides = [
   {
-    img: itStudio,
-    color: "#4985ff",
-    name: "IT - Studio",
+    img: netex,
+    color: "#fce34c",
+    name: "Netex",
     descr:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "December 2020",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/IT-studio/",
-  },
-
-  {
-    img: runSmart,
-    name: "RunSmart",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "January 2021",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/RunSmart/",
-    color: "#00bb29",
-  },
-  {
-    img: HouseVOP,
-    color: "#d4c17e",
-    name: "HouseVOP",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "February 2021",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/HouseVop/",
-  },
-  {
-    img: plantShop,
-    color: "#355342",
-    name: "Plant Shop",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "February 2021",
-    technologies: "HTML, CSS, Javascript",
-    link: "https://salrepepe.github.io/plant-shop/",
-  },
-  {
-    img: "",
-    color: "",
-    name: "ToDo App",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "April 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux",
-    link: "https://app-tod1.herokuapp.com/",
-  },
-  {
-    img: crypto,
-    color: "#f8b91a",
-    name: "Crypto",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "May 2021",
-    technologies: "HTML, CSS, Javascript, React, React-Slick, Redux",
-    link: "https://cryptokeke.herokuapp.com/",
-  },
-  {
-    img: oracleDigital,
-    color: "#4b81c2",
-    name: "Oracle Digital",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "May 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
-    link: "https://oracle-digital.herokuapp.com/",
+    date: "November - December 2021",
+    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
+    link: "https://netex.kg",
   },
   {
     img: domket,
@@ -139,13 +78,77 @@ const slides = [
     link: "https://domket.kg",
   },
   {
-    img: netex,
-    color: "#fce34c",
-    name: "Netex",
+    img: oracleDigital,
+    color: "#4b81c2",
+    name: "Oracle Digital",
     descr:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "November - December 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://netex.kg",
+    date: "May 2021",
+    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
+    link: "https://oracle-digital.herokuapp.com/",
+  },
+  {
+    img: crypto,
+    color: "#f8b91a",
+    name: "Crypto",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "May 2021",
+    technologies: "HTML, CSS, Javascript, React, React-Slick, Redux",
+    link: "https://cryptokeke.herokuapp.com/",
+  },
+
+  {
+    img: "",
+    color: "",
+    name: "ToDo App",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "April 2021",
+    technologies: "HTML, CSS, Javascript, React, Redux",
+    link: "https://app-tod1.herokuapp.com/",
+  },
+
+  {
+    img: plantShop,
+    color: "#355342",
+    name: "Plant Shop",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "February 2021",
+    technologies: "HTML, CSS, Javascript",
+    link: "https://salrepepe.github.io/plant-shop/",
+  },
+  {
+    img: HouseVOP,
+    color: "#d4c17e",
+    name: "HouseVOP",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "February 2021",
+    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+    link: "https://salrepepe.github.io/HouseVop/",
+  },
+
+  {
+    img: runSmart,
+    name: "RunSmart",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "January 2021",
+    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+    link: "https://salrepepe.github.io/RunSmart/",
+    color: "#00bb29",
+  },
+
+  {
+    img: itStudio,
+    color: "#4985ff",
+    name: "IT - Studio",
+    descr:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+    date: "December 2020",
+    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+    link: "https://salrepepe.github.io/IT-studio/",
   },
 ];
