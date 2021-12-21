@@ -44,13 +44,13 @@ export default Portfolio;
 
 const slides = [
   {
-    img: oracleDigital,
-    name: "Oracle Digital",
-    descr: t("odProject"),
-    date: "May 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
-    link: "https://oracle-digital.herokuapp.com/",
+    img: netex,
+    name: "Netex",
+    date: "November - December 2021",
+    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
+    link: "https://netex.kg",
   },
+
   {
     img: domket,
     name: "Domket",
@@ -59,10 +59,11 @@ const slides = [
     link: "https://domket.kg",
   },
   {
-    img: netex,
-    name: "Netex",
-    date: "November - December 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://netex.kg",
+    img: oracleDigital,
+    name: "Oracle Digital",
+    descr: t("odProject"),
+    date: "May 2021",
+    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
+    link: "https://oracle-digital.herokuapp.com/",
   },
 ];
