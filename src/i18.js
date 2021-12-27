@@ -30,7 +30,7 @@ const resources = {
       created: "Created",
       technologies: "Technologies",
       aboutMeTxt:
-        "People call me Muha, I'm 17 years old, I develop web applications and I enjoy it. So far I want to become a professional in this field.",
+        "People call me Muha, I develop web applications and I enjoy it. So far I want to become a professional in this field.",
       od: "After half a year of studies at the academy I got an internship in the company, wrote several projects, proved myself and got a position of Junior Front-End Developer and I still work here.",
       vievOnline: "View Online",
       phone: "Phone Number",
