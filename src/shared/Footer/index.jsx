@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container d-flex justify-content-center flex-column align-items-center">
         <div style={{ marginBottom: 16 }}>
           <a
-            href="https://www.instagram.com/salrepepee/"
+            href="https://www.instagram.com/salrepepe/"
             target="_blank"
             rel=" noreferrer"
           >

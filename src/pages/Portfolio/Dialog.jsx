@@ -1,14 +1,33 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { t } from "i18next";
 
 const Dialog = ({ item, setProject }) => {
+  function useOutsideAlerter(ref) {
+    useEffect(() => {
+      function handleClickOutside(event) {
+        if (ref.current && !ref.current.contains(event.target)) {
+          setProject("");
+        }
+      }
+      // Bind the event listener
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        // Unbind the event listener on clean up
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, [ref]);
+  }
+
   document.addEventListener("keydown", function (e) {
     if (e.keyCode == 27) {
       document.body.classList.remove("scrolled-body");
       setProject("");
     }
   });
+
+  const wrapperRef = useRef(null);
+  useOutsideAlerter(wrapperRef);
 
   const variants = {
     hidden: { opacity: 0 },
@@ -20,6 +39,7 @@ const Dialog = ({ item, setProject }) => {
       className="dialog"
       initial="hidden"
       animate="visible"
+      ref={wrapperRef}
       variants={variants}
     >
       <div

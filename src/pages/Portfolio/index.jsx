@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./index.css";
-import itStudio from "../../assets/images/portfolio/itStudio.webp";
-import runSmart from "../../assets/images/portfolio/runSmart.webp";
-import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
-import crypto from "../../assets/images/portfolio/crypto.webp";
+// import itStudio from "../../assets/images/portfolio/itStudio.webp";
+// import runSmart from "../../assets/images/portfolio/runSmart.webp";
+// import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
+// import crypto from "../../assets/images/portfolio/crypto.webp";
 import domket from "../../assets/images/portfolio/domket.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
 import plantShop from "../../assets/images/portfolio/plant-shop.webp";
-import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
+// import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
+import doce from "../../assets/images/portfolio/doce.png";
 import { t } from "i18next";
 import Dialog from "./Dialog";
 
@@ -58,14 +59,23 @@ export default Portfolio;
 
 const slides = [
   {
+    img: doce,
+    color: "#FFB951",
+    name: "DOCExpress",
+    descr: "DOCExpress - быстро и надежно доставят все что можно.",
+    date: "January - February 2022",
+    technologies: "React, Redux, Yandex Maps, Material UI",
+    link: "https://doce.kg/",
+  },
+  {
     img: netex,
     color: "#fce34c",
     name: "Netex",
     descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+      "Netex - Ваш персональный обменный сервис. Netex позволяет совершать обмены электронных валют в огромное количество направлений. Совершать обмены с Netex можно с любого устройства: мобильный телефон, планшет или компьютер.",
     date: "November - December 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://test.netex.kg",
+    technologies: "React, Redux, APEXCHARTS.JS",
+    link: "https://netex.kg",
   },
   {
     img: domket,
@@ -74,40 +84,40 @@ const slides = [
     descr:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
     date: "June - September 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
+    technologies: "React, Redux, 2Gis",
     link: "https://domket.kg",
   },
-  {
-    img: oracleDigital,
-    color: "#4b81c2",
-    name: "Oracle Digital",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "May 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
-    link: "https://oracle-digital.herokuapp.com/",
-  },
-  {
-    img: crypto,
-    color: "#f8b91a",
-    name: "Crypto",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "May 2021",
-    technologies: "HTML, CSS, Javascript, React, React-Slick, Redux",
-    link: "https://cryptokeke.herokuapp.com/",
-  },
+  // {
+  //   img: oracleDigital,
+  //   color: "#4b81c2",
+  //   name: "Oracle Digital",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "May 2021",
+  //   technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
+  //   link: "https://oracle-digital.herokuapp.com/",
+  // },
+  // {
+  //   img: crypto,
+  //   color: "#f8b91a",
+  //   name: "Crypto",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "May 2021",
+  //   technologies: "HTML, CSS, Javascript, React, React-Slick, Redux",
+  //   link: "https://cryptokeke.herokuapp.com/",
+  // },
 
-  {
-    img: "",
-    color: "",
-    name: "ToDo App",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "April 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux",
-    link: "https://app-tod1.herokuapp.com/",
-  },
+  // {
+  //   img: "",
+  //   color: "",
+  //   name: "ToDo App",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "April 2021",
+  //   technologies: "HTML, CSS, Javascript, React, Redux",
+  //   link: "https://app-tod1.herokuapp.com/",
+  // },
 
   {
     img: plantShop,
@@ -119,36 +129,36 @@ const slides = [
     technologies: "HTML, CSS, Javascript",
     link: "https://salrepepe.github.io/plant-shop/",
   },
-  {
-    img: HouseVOP,
-    color: "#d4c17e",
-    name: "HouseVOP",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "February 2021",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/HouseVop/",
-  },
+  // {
+  //   img: HouseVOP,
+  //   color: "#d4c17e",
+  //   name: "HouseVOP",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "February 2021",
+  //   technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+  //   link: "https://salrepepe.github.io/HouseVop/",
+  // },
 
-  {
-    img: runSmart,
-    name: "RunSmart",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "January 2021",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/RunSmart/",
-    color: "#00bb29",
-  },
+  // {
+  //   img: runSmart,
+  //   name: "RunSmart",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "January 2021",
+  //   technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+  //   link: "https://salrepepe.github.io/RunSmart/",
+  //   color: "#00bb29",
+  // },
 
-  {
-    img: itStudio,
-    color: "#4985ff",
-    name: "IT - Studio",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "December 2020",
-    technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
-    link: "https://salrepepe.github.io/IT-studio/",
-  },
+  // {
+  //   img: itStudio,
+  //   color: "#4985ff",
+  //   name: "IT - Studio",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "December 2020",
+  //   technologies: "HTML, CSS, Javascript, JQuery, OwnCarousel",
+  //   link: "https://salrepepe.github.io/IT-studio/",
+  // },
 ];

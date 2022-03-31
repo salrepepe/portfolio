@@ -8,7 +8,12 @@ const FirstScreen = ({ t }) => {
     <section className="firstScreen">
       <div className="container d-flex justify-content-center align-items-center">
         <div className="flex-md-row flex-column-reverse d-flex">
-          <div className="col-md-6 col-12">
+          <div
+            className="col-md-6 col-12"
+            style={{
+              zIndex: 10,
+            }}
+          >
             <h1 className="h1">{t("title")}</h1>
             <h5 className="h5">{t("subtitle")}</h5>
             <a
@@ -35,6 +40,12 @@ const FirstScreen = ({ t }) => {
           />
         </svg>
       </div>
+      <div className="rectangle"></div>
+      <div className="rectangle2"></div>
+      <div className="rectangle3"></div>
+      <div className="rectangle4"></div>
+      <div className="rectangle5"></div>
+      <div className="rectangle6"></div>
     </section>
   );
 };

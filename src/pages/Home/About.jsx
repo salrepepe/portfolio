@@ -92,6 +92,7 @@ const skills = [
   "Sass, Less, Stylus",
   "Bootstrap",
   "Material UI",
+  "Chakra UI ",
   "BEM - Metodology",
   "Node JS",
   "Mongo DB",
