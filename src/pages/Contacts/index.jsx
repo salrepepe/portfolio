@@ -21,7 +21,7 @@ const Contacts = () => {
                   <h3 className="h3">{t("social")}</h3>
                   <h4 className="h4">
                     <a
-                      href="https://www.instagram.com/salrepepee/"
+                      href="https://www.instagram.com/salrepepe/"
                       target="_blank"
                       rel=" noreferrer"
                     >

@@ -10,6 +10,7 @@ import netex from "../../assets/images/portfolio/netex.webp";
 import plantShop from "../../assets/images/portfolio/plant-shop.webp";
 // import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 import doce from "../../assets/images/portfolio/doce.png";
+import contacts from "../../assets/images/portfolio/contacts.png";
 import { t } from "i18next";
 import Dialog from "./Dialog";
 
@@ -66,6 +67,16 @@ const slides = [
     date: "January - February 2022",
     technologies: "React, Redux, Yandex Maps, Material UI",
     link: "https://doce.kg/",
+  },
+  {
+    img: contacts,
+    color: "#4985ff",
+    name: "Контакты",
+    descr:
+      "Учебный проект - страница контактов, возможность удаления и редактирования контактов ",
+    date: "February 2022",
+    technologies: "React, Redux",
+    link: "https://salrepepe-contacts.vercel.app",
   },
   {
     img: netex,
