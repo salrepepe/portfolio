@@ -6,11 +6,13 @@ import "./index.css";
 // import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
 // import crypto from "../../assets/images/portfolio/crypto.webp";
 import domket from "../../assets/images/portfolio/domket.webp";
+import nft from "../../assets/images/portfolio/nft.webp";
+import artDeco from "../../assets/images/portfolio/art-deco.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
 import plantShop from "../../assets/images/portfolio/plant-shop.webp";
 // import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 import doce from "../../assets/images/portfolio/doce.png";
-import contacts from "../../assets/images/portfolio/contacts.png";
+// import contacts from "../../assets/images/portfolio/contacts.png";
 import { t } from "i18next";
 import Dialog from "./Dialog";
 
@@ -60,6 +62,26 @@ export default Portfolio;
 
 const slides = [
   {
+    img: artDeco,
+    color: "#fce34c",
+    name: "Art-Deco",
+    descr:
+      "Orci nec interdum facilisis. Lorem ipsum dolor sit amet, consectetur",
+    date: "April - May 2022",
+    technologies: "React",
+    link: "https://art-deco.vercel.app/",
+  },
+  {
+    img: nft,
+    color: "#fce34c",
+    name: "Netex NFT",
+    descr: "Открывайте, собирайте и продавайте необычные NFT.",
+    date: "February - March 2022",
+    technologies: "React",
+    link: "https://nft.netex.kg/",
+  },
+
+  {
     img: doce,
     color: "#FFB951",
     name: "DOCExpress",
@@ -69,7 +91,7 @@ const slides = [
     link: "https://doce.kg/",
   },
   {
-    img: contacts,
+    // img: contacts,
     color: "#4985ff",
     name: "Контакты",
     descr:
@@ -140,6 +162,7 @@ const slides = [
     technologies: "HTML, CSS, Javascript",
     link: "https://salrepepe.github.io/plant-shop/",
   },
+
   // {
   //   img: HouseVOP,
   //   color: "#d4c17e",

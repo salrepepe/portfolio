@@ -41,7 +41,7 @@ const About = ({ t }) => {
                 <li className="h6">{item}</li>
               ))}
             </ul>
-            <div className="tabs">
+            {/* <div className="tabs">
               <span
                 className={tab === "education" ? "tab h5 tab_active" : "tab h5"}
                 onClick={() => setTab("education")}
@@ -56,8 +56,8 @@ const About = ({ t }) => {
               >
                 {t("expirience")}
               </span>
-            </div>
-            <ul className="roadmap">
+            </div> */}
+            {/* <ul className="roadmap">
               {tab === "education"
                 ? education.map((item) => (
                     <li className="timeline">
@@ -73,7 +73,7 @@ const About = ({ t }) => {
                       <span className="descr h6">{item.descr}</span>
                     </li>
                   ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

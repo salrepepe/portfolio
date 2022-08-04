@@ -30,7 +30,7 @@ const resources = {
       created: "Created",
       technologies: "Technologies",
       aboutMeTxt:
-        "People call me Muha, I develop web applications and I enjoy it. So far I want to become a professional in this field.",
+        "People call me Muha I develop web applications and I enjoy it. So far I want to become a professional in this field.",
       od: "After half a year of studies at the academy I got an internship in the company, wrote several projects, proved myself and got a position of Junior Front-End Developer and I still work here.",
       vievOnline: "View Online",
       phone: "Phone Number",
@@ -50,9 +50,7 @@ const resources = {
       subtitle:
         "Постоянно практикуя и обучаясь, я создаю крутые сайты и приложения в соответствии с высочайшими стандартами.",
       download: "Скачать резюме",
-      aboutMeTxt: `Люди зовут меня Мухой, я занимаюсь разработкой веб-приложений и получаю от этого удовольствие. Пока что хочу стать профессионалом в этой области. 
-
-Из хобби - лазать по горам и играть в баскетбол`,
+      aboutMeTxt: `Я занимаюсь разработкой веб-приложений и получаю от этого удовольствие. Пока что хочу стать профессионалом в этой области Lorem50.`,
       expirience: "Опыт работы",
       education: "Образование",
       school: "Школа-гимназия № 33 с углубленным изучением экономики и права",

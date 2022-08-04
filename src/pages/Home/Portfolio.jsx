@@ -59,6 +59,15 @@ const slides = [
     link: "https://doce.kg/",
   },
   {
+    img: doce,
+    color: "#FFB951",
+    name: "DOCExpress",
+    descr: "DOCExpress - быстро и надежно доставят все что можно.",
+    date: "January - February 2022",
+    technologies: "React, Redux, Yandex Maps, Material UI",
+    link: "https://doce.kg/",
+  },
+  {
     img: netex,
     name: "Netex",
     date: "November - December 2021",
