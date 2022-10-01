@@ -16,7 +16,7 @@ const FirstScreen = ({ t }) => {
           >
             <h1 className="h1">{t("title")}</h1>
             <h5 className="h5">{t("subtitle")}</h5>
-            <a
+            {/* <a
               className="btn btn-secondary"
               href={uploadedFileLink}
               target="_blank"
@@ -24,7 +24,7 @@ const FirstScreen = ({ t }) => {
               download
             >
               {t("download")}
-            </a>
+            </a> */}
           </div>
           <div className="col-md-6 col-12 d-flex justify-content-center">
             <div className="img">

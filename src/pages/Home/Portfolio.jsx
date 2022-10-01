@@ -1,10 +1,7 @@
 import { t } from "i18next";
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import domket from "../../assets/images/portfolio/domket.webp";
-import netex from "../../assets/images/portfolio/netex.webp";
-// import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
-import doce from "../../assets/images/portfolio/doce.png";
+import opop from "../../assets/images/portfolio/opop.png";
 
 const Portfolio = () => {
   const [slide, setSlide] = useState(null);
@@ -28,7 +25,7 @@ const Portfolio = () => {
               <img src={item.img} alt="" />
               <h2
                 className="h2"
-                style={{ color: item.name === "DOCExpress" ? "#000" : "#FFF" }}
+                style={{ color: item.name === "OPOP" ? "#000" : "#FFF" }}
               >
                 {item.name}
               </h2>
@@ -50,35 +47,8 @@ export default Portfolio;
 
 const slides = [
   {
-    img: doce,
-    color: "#FFB951",
-    name: "DOCExpress",
-    descr: "DOCExpress - быстро и надежно доставят все что можно.",
-    date: "January - February 2022",
-    technologies: "React, Redux, Yandex Maps, Material UI",
-    link: "https://doce.kg/",
+    img: opop,
+    name: "OPOP",
+    link: "https://opop.asia",
   },
-  {
-    img: netex,
-    name: "Netex",
-    date: "November - December 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://netex.kg",
-  },
-
-  {
-    img: domket,
-    name: "Domket",
-    date: "June - September 2021",
-    technologies: "HTML, CSS, Javascript, React, Redux, React-Slick, 2Gis",
-    link: "https://domket.kg",
-  },
-  // {
-  //   img: oracleDigital,
-  //   name: "Oracle Digital",
-  //   descr: t("odProject"),
-  //   date: "May 2021",
-  //   technologies: "HTML, CSS, Javascript, React, Redux, React-Slick",
-  //   link: "https://oracle-digital.herokuapp.com/",
-  // },
 ];

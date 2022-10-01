@@ -34,7 +34,11 @@ const About = ({ t }) => {
             <img src={akio} alt="" />
           </div>
           <div className="col-12 col-lg-6">
-            <h4 className="h6">{t("aboutMeTxt")}</h4>
+            <h4 className="h6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+              laudantium. Optio, iusto perspiciatis sed vero laboriosam ut
+              inventore eum cupiditate?
+            </h4>
             <h3 className="h4">{t("skills")}</h3>
             <ul className="skills">
               {skills.map((item) => (

@@ -90,16 +90,16 @@ const slides = [
     technologies: "React, Redux, Yandex Maps, Material UI",
     link: "https://doce.kg/",
   },
-  {
-    // img: contacts,
-    color: "#4985ff",
-    name: "Контакты",
-    descr:
-      "Учебный проект - страница контактов, возможность удаления и редактирования контактов ",
-    date: "February 2022",
-    technologies: "React, Redux",
-    link: "https://salrepepe-contacts.vercel.app",
-  },
+  // {
+  //   // img: contacts,
+  //   color: "#4985ff",
+  //   name: "Контакты",
+  //   descr:
+  //     "Учебный проект - страница контактов, возможность удаления и редактирования контактов ",
+  //   date: "February 2022",
+  //   technologies: "React, Redux",
+  //   link: "https://salrepepe-contacts.vercel.app",
+  // },
   {
     img: netex,
     color: "#fce34c",
