@@ -21,7 +21,7 @@ const Contacts = () => {
                   <h3 className="h3">{t("social")}</h3>
                   <h4 className="h4">
                     <a
-                      href="https://www.instagram.com/cocososo66/"
+                      href="https://www.instagram.com/salrepepe/"
                       target="_blank"
                       rel=" noreferrer"
                     >
@@ -47,7 +47,7 @@ const Contacts = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://t.me/cocososo66"
+                      href="https://t.me/salrepepe"
                       target="_blank"
                       rel=" noreferrer"
                     >

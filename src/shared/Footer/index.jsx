@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container d-flex justify-content-center flex-column align-items-center">
         <div style={{ marginBottom: 16 }}>
           <a
-            href="https://www.instagram.com/cocososo66/"
+            href="https://www.instagram.com/salrepepe/"
             target="_blank"
             rel=" noreferrer"
           >
@@ -32,7 +32,7 @@ const Footer = () => {
               />
             </svg>
           </a>
-          <a href="https://t.me/cocososo66" target="_blank" rel=" noreferrer">
+          <a href="https://t.me/salrepepe" target="_blank" rel=" noreferrer">
             <svg
               aria-hidden="true"
               focusable="false"
