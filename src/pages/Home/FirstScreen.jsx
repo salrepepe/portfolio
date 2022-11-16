@@ -1,9 +1,13 @@
 import React from "react";
 import "./index.css";
 import me from "../../assets/images/me.webp";
-import uploadedFileLink from "../../assets/images/cv.png";
+import uploadedFileLink from "../../assets/images/resume.pdf";
+import uploadedFileLinkk from "../../assets/images/resumee.pdf";
+import { useTranslation } from "react-i18next";
 
-const FirstScreen = ({ t }) => {
+const FirstScreen = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <section className="firstScreen">
       <div className="container d-flex justify-content-center align-items-center">
@@ -16,15 +20,17 @@ const FirstScreen = ({ t }) => {
           >
             <h1 className="h1">{t("title")}</h1>
             <h5 className="h5">{t("subtitle")}</h5>
-            {/* <a
+            <a
               className="btn btn-secondary"
-              href={uploadedFileLink}
+              href={
+                i18n.language === "ru" ? uploadedFileLinkk : uploadedFileLink
+              }
               target="_blank"
               rel="noopener noreferrer"
               download
             >
               {t("download")}
-            </a> */}
+            </a>
           </div>
           <div className="col-md-6 col-12 d-flex justify-content-center">
             <div className="img">

@@ -69,7 +69,7 @@ const slides = [
       "Orci nec interdum facilisis. Lorem ipsum dolor sit amet, consectetur",
     date: "April - May 2022",
     technologies: "React",
-    link: "https://art-deco.vercel.app/",
+    link: "https://art-deco.kg/",
   },
   {
     img: nft,

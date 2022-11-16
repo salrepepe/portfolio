@@ -38,7 +38,7 @@
   transition: all 0.3s linear;
   height: fit-content;
   z-index: 2;
-  animation: top-bottom 10s linear infinite;
+  /* animation: top-bottom 10s linear infinite; */
 }
 
 .firstScreen .img::before {
