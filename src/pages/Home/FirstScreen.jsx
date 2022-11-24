@@ -1,8 +1,7 @@
 import React from "react";
 import "./index.css";
 import me from "../../assets/images/me.webp";
-import uploadedFileLink from "../../assets/images/resume.pdf";
-import uploadedFileLinkk from "../../assets/images/resumee.pdf";
+import uploadedFileLink from "../../assets/images/cv.pdf";
 import { useTranslation } from "react-i18next";
 
 const FirstScreen = () => {
@@ -23,7 +22,7 @@ const FirstScreen = () => {
             <a
               className="btn btn-secondary"
               href={
-                i18n.language === "ru" ? uploadedFileLinkk : uploadedFileLink
+                i18n.language === "ru" ? uploadedFileLink : uploadedFileLink
               }
               target="_blank"
               rel="noopener noreferrer"

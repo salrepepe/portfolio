@@ -9,7 +9,7 @@ import domket from "../../assets/images/portfolio/domket.webp";
 import nft from "../../assets/images/portfolio/nft.webp";
 import artDeco from "../../assets/images/portfolio/art-deco.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
-import plantShop from "../../assets/images/portfolio/plant-shop.webp";
+import opop from "../../assets/images/portfolio/opop.png";
 // import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
 import doce from "../../assets/images/portfolio/doce.png";
 // import contacts from "../../assets/images/portfolio/contacts.png";
@@ -61,6 +61,16 @@ const Portfolio = () => {
 export default Portfolio;
 
 const slides = [
+  {
+    img: opop,
+    name: "OPOP",
+    link: "https://opop.asia",
+    color: "#fce34c",
+    descr:
+      "Orci nec interdum facilisis. Lorem ipsum dolor sit amet, consectetur",
+    date: "2022",
+    technologies: "React",
+  },
   {
     img: artDeco,
     color: "#fce34c",
@@ -152,16 +162,16 @@ const slides = [
   //   link: "https://app-tod1.herokuapp.com/",
   // },
 
-  {
-    img: plantShop,
-    color: "#355342",
-    name: "Plant Shop",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "February 2021",
-    technologies: "HTML, CSS, Javascript",
-    link: "https://salrepepe.github.io/plant-shop/",
-  },
+  // {
+  //   img: plantShop,
+  //   color: "#355342",
+  //   name: "Plant Shop",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "February 2021",
+  //   technologies: "HTML, CSS, Javascript",
+  //   link: "https://salrepepe.github.io/plant-shop/",
+  // },
 
   // {
   //   img: HouseVOP,
