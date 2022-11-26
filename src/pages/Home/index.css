@@ -25,7 +25,7 @@
   margin-top: 32px;
 }
 
-.firstScreen img {
+.firstScreen .img img {
   width: 350px;
   height: 350px;
   border-radius: 100%;
@@ -42,7 +42,7 @@
 }
 
 .firstScreen .img::before {
-  position: absolute;
+  /* position: absolute; */
   content: "";
   top: 10px;
   left: 0;
@@ -70,10 +70,14 @@
   width: 299px;
   height: 239px;
   right: 34%;
-  bottom: 0;
+  top: 100px;
   z-index: 1;
   border-radius: 500;
-  background: linear-gradient(220.15deg, #7910fe 12.82%, #7711fe 101.44%);
+  background: linear-gradient(
+    220.15deg,
+    var(--color-primary) 12.82%,
+    var(--color-primary) 101.44%
+  );
   opacity: 0.85;
   filter: blur(200px);
 }
@@ -83,7 +87,7 @@
   width: 68px;
   height: 68px;
   left: 700px;
-  top: 142px;
+  bottom: 142px;
   background: linear-gradient(220.15deg, #25faff 12.82%, #25faff 101.44%);
   opacity: 0.85;
   border-radius: 13px;
@@ -94,7 +98,7 @@
   width: 30px;
   height: 30px;
   right: 940px;
-  top: 142px;
+  bottom: 142px;
   opacity: 0.85;
   background: linear-gradient(
     220.15deg,
@@ -110,7 +114,7 @@
   width: 30px;
   height: 30px;
   right: 940px;
-  top: 276px;
+  bottom: 276px;
   opacity: 0.85;
   background: rgba(1, 99, 247, 0.3);
   box-shadow: 0px 50px 120px #01adf7;
@@ -122,11 +126,25 @@
   width: 8px;
   height: 9px;
   right: 978px;
-  top: 392px;
+  bottom: 392px;
   background: linear-gradient(220.15deg, #25faff 12.82%, #25faff 101.44%);
   opacity: 0.5;
   border-radius: 13px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.firstScreen .rectangle7 {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  transform: rotate(180deg);
+}
+
+.firstScreen .rectangle8 {
+  position: absolute;
+  top: 60px;
+  right: -70px;
+  /* transform: rotate(180deg); */
 }
 
 .about {
@@ -311,7 +329,7 @@
 
 @media (max-width: 768px) {
   .firstScreen {
-    padding: 145px 0 ;
+    padding: 145px 0;
   }
 }
 

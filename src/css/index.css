@@ -1,9 +1,10 @@
 @import url("../assets/fonts/CeraPro/stylesheet.css");
 @import url("../assets/libs/bootstrap//bootstrap-grid.min.css");
 :root {
-  --color-primary: #8639fa;
-  --color-secondary: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%),
-    #c4c4c4;
+  --color-primary: #3ed62560;
+  --color-secondary: #3ed62560;
+  /* linear-gradient(90deg, #3ED625 20.44%, #734AE8 80.91%),
+    #c4c4c4; */
 }
 
 * {
