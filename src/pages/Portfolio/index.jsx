@@ -5,13 +5,13 @@ import "./index.css";
 // import runSmart from "../../assets/images/portfolio/runSmart.webp";
 // import HouseVOP from "../../assets/images/portfolio/houseVop.webp";
 // import crypto from "../../assets/images/portfolio/crypto.webp";
-import domket from "../../assets/images/portfolio/domket.webp";
+// import domket from "../../assets/images/portfolio/domket.webp";
 import nft from "../../assets/images/portfolio/nft.webp";
 import artDeco from "../../assets/images/portfolio/art-deco.webp";
 import netex from "../../assets/images/portfolio/netex.webp";
 import opop from "../../assets/images/portfolio/opop.png";
 // import oracleDigital from "../../assets/images/portfolio/oracle-digital.webp";
-import doce from "../../assets/images/portfolio/doce.png";
+// import doce from "../../assets/images/portfolio/doce.png";
 // import contacts from "../../assets/images/portfolio/contacts.png";
 import { t } from "i18next";
 import Dialog from "./Dialog";
@@ -91,15 +91,15 @@ const slides = [
     link: "https://nft.netex.kg/",
   },
 
-  {
-    img: doce,
-    color: "#FFB951",
-    name: "DOCExpress",
-    descr: "DOCExpress - быстро и надежно доставят все что можно.",
-    date: "January - February 2022",
-    technologies: "React, Redux, Yandex Maps, Material UI",
-    link: "https://doce.kg/",
-  },
+  // {
+  //   img: doce,
+  //   color: "#FFB951",
+  //   name: "DOCExpress",
+  //   descr: "DOCExpress - быстро и надежно доставят все что можно.",
+  //   date: "January - February 2022",
+  //   technologies: "React, Redux, Yandex Maps, Material UI",
+  //   link: "https://doce.kg/",
+  // },
   // {
   //   // img: contacts,
   //   color: "#4985ff",
@@ -120,16 +120,16 @@ const slides = [
     technologies: "React, Redux, APEXCHARTS.JS",
     link: "https://netex.kg",
   },
-  {
-    img: domket,
-    color: "#00bb29",
-    name: "Domket",
-    descr:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
-    date: "June - September 2021",
-    technologies: "React, Redux, 2Gis",
-    link: "https://domket.kg",
-  },
+  // {
+  //   img: domket,
+  //   color: "#00bb29",
+  //   name: "Domket",
+  //   descr:
+  //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi pariatur officiis modi debitis error animi corporis nostrum! Fugiat corporis porro mollitia accusamus, aspernatur saepe. Facilis deserunt ullam eligendi adipisci. Maxime laboriosam expedita fuga dignissimos, perspiciatis nobis voluptatibus dolores repellat asperiores!",
+  //   date: "June - September 2021",
+  //   technologies: "React, Redux, 2Gis",
+  //   link: "https://domket.kg",
+  // },
   // {
   //   img: oracleDigital,
   //   color: "#4b81c2",
